@@ -16,6 +16,7 @@
         }
     ],
     "require": {
-        "phpmailer/phpmailer": "^6.5"
+        "phpmailer/phpmailer": "^6.5",
+        "citigo/kiotviet-php-sdk": "*"
     }
 }
