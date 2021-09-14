@@ -2,7 +2,7 @@
     "name": "tantai/test",
     "description": "test composer",
     "type": "library",
-    "license": "MIT license",
+    "license": "",
     "autoload": {
         "psr-4": {
             "Test\\": "Test/"
