@@ -2,8 +2,8 @@
 /**
  *   #----------------------------------------------------------#
  *   # * @Company       : photodesign.vn.                       #
- *   # * @Project       : test                               #
- *   # * @File          : Oporator.php                              #
+ *   # * @Project       : composer                               #
+ *   # * @File          : helper.php                              #
  *   # * @Developer     : taint.ict@gmail.com                   #
  *   # * @IDE           : PhpStorm                              #
  *   # * @Copyright     : 2021 - NOW                            #
@@ -19,11 +19,6 @@
  *
  */
 
-namespace Test\Math;
-use Test\Constant;
-class Oporator
-{
-    public function square($r) {
-        echo Constant::PI * $r *$r;
-    }
+function total($a, $b) {
+    return $a + $b;
 }

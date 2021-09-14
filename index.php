@@ -2,8 +2,8 @@
 /**
  *   #----------------------------------------------------------#
  *   # * @Company       : photodesign.vn.                       #
- *   # * @Project       : test                               #
- *   # * @File          : Oporator.php                              #
+ *   # * @Project       : composer                               #
+ *   # * @File          : index.php                              #
  *   # * @Developer     : taint.ict@gmail.com                   #
  *   # * @IDE           : PhpStorm                              #
  *   # * @Copyright     : 2021 - NOW                            #
@@ -18,12 +18,8 @@
  *
  *
  */
-
-namespace Test\Math;
-use Test\Constant;
-class Oporator
-{
-    public function square($r) {
-        echo Constant::PI * $r *$r;
-    }
-}
+require_once ('vendor/autoload.php');
+use Test\Math\Oporator;
+$o = new Oporator();
+$o->square(10);
+echo "\n" . total(4,5);
